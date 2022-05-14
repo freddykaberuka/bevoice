@@ -1,6 +1,6 @@
 import React from 'react'
 import image1 from '../../assets/13.JPG'
-import home from './home.scss'
+import './home.scss';
 
 function Slider() {
   return (
