@@ -22,10 +22,20 @@ function History() {
                     <button>Read More</button>
                 </div>
             </div>
-            <div className="history-cont">
-                <div className="history-image"><img src={image1}/></div>
+            <div className="history-boss">
+                <div className="history-image">
+                    <img src={image1}/>
+                </div>
                 <div className="history-desc">
                     <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Temporibus quae sunt adipisci? Eligendi asperiores minus cupiditate labore in placeat unde. 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Temporibus quae sunt adipisci? Eligendi asperiores minus cupiditate labore in placeat unde.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Temporibus quae sunt adipisci? Eligendi asperiores minus cupiditate labore in placeat unde. 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Temporibus quae sunt adipisci? Eligendi asperiores minus cupiditate labore in placeat unde.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         Temporibus quae sunt adipisci? Eligendi asperiores minus cupiditate labore in placeat unde. 
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         Temporibus quae sunt adipisci? Eligendi asperiores minus cupiditate labore in placeat unde.
@@ -33,6 +43,27 @@ function History() {
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam aspernatur nobis, 
                         quod quae sit non earum nam perspiciatis officiis tenetur.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Temporibus quae sunt adipisci? Eligendi asperiores minus cupiditate labore in placeat unde.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Temporibus quae sunt adipisci? Eligendi asperiores minus cupiditate labore in placeat unde. 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Temporibus quae sunt adipisci? Eligendi asperiores minus cupiditate labore in placeat unde.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Temporibus quae sunt adipisci? Eligendi asperiores minus cupiditate labore in placeat unde. 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Temporibus quae sunt adipisci? Eligendi asperiores minus cupiditate labore in placeat unde.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Temporibus quae sunt adipisci? Eligendi asperiores minus cupiditate labore in placeat unde. 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Temporibus quae sunt adipisci? Eligendi asperiores minus cupiditate labore in placeat unde.
+                    </p>
+                    <p>
+                        Temporibus quae sunt adipisci? Eligendi asperiores minus cupiditate labore in placeat unde. 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Temporibus quae sunt adipisci? Eligendi asperiores minus cupiditate labore in placeat unde.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Temporibus quae sunt adipisci? Eligendi asperiores minus cupiditate labore in placeat unde. 
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         Temporibus quae sunt adipisci? Eligendi asperiores minus cupiditate labore in placeat unde.
                     </p>
