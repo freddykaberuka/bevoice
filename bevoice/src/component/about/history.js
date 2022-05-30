@@ -23,10 +23,10 @@ function History() {
                 </div>
             </div>
             <div className="history-boss">
-                <div className="history-image">
+                <div className="history-image-boss">
                     <img src={image1}/>
                 </div>
-                <div className="history-desc">
+                <div className="history-desc-boss">
                     <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         Temporibus quae sunt adipisci? Eligendi asperiores minus cupiditate labore in placeat unde. 
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -40,6 +40,20 @@ function History() {
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         Temporibus quae sunt adipisci? Eligendi asperiores minus cupiditate labore in placeat unde.
                     </p>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Temporibus quae sunt adipisci? Eligendi asperiores minus cupiditate labore in placeat unde. 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Temporibus quae sunt adipisci? Eligendi asperiores minus cupiditate labore in placeat unde.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Temporibus quae sunt adipisci? Eligendi asperiores minus cupiditate labore in placeat unde. 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Temporibus quae sunt adipisci? Eligendi asperiores minus cupiditate labore in placeat unde.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Temporibus quae sunt adipisci? Eligendi asperiores minus cupiditate labore in placeat unde. 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Temporibus quae sunt adipisci? Eligendi asperiores minus cupiditate labore in placeat unde.
+                    </p>
+                    
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam aspernatur nobis, 
                         quod quae sit non earum nam perspiciatis officiis tenetur.
@@ -67,7 +81,6 @@ function History() {
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         Temporibus quae sunt adipisci? Eligendi asperiores minus cupiditate labore in placeat unde.
                     </p>
-                    <button>Read More</button>
                 </div>
             </div>
         </div>
