@@ -69,3 +69,16 @@
         }
     }
 }
+.board-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 100px;
+}
+.board-card {
+    width: 100px;
+    width: 150px;
+    .img{
+    border-color: orange 10px;
+        width: 100%;
+    }
+}

@@ -3,6 +3,7 @@ import Slider from '../landing/slider'
 import History from './history'
 import './about.scss'
 import Aproach from './aproach'
+import Board from './board'
 
 function About() {
   return (
@@ -10,6 +11,7 @@ function About() {
         <Slider/>
         <History/>
         <Aproach/>
+        <Board/>
     </div>
   )
 }
