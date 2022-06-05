@@ -4,6 +4,7 @@ import History from './history'
 import './about.scss'
 import Aproach from './aproach'
 import Board from './board'
+import Staff from './staff'
 
 function About() {
   return (
@@ -12,6 +13,7 @@ function About() {
         <History/>
         <Aproach/>
         <Board/>
+        <Staff/>
     </div>
   )
 }

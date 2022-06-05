@@ -1,10 +1,10 @@
 import React from 'react'
 import image1 from '../../assets/arsen.jpg'
-function Board() {
+function Staff() {
   return (
     <div>
-      <div className="header-title">
-      <h1>BOARD TEAM</h1>
+    <div className="header-title">
+      <h1>STAFF TEAM</h1>
     </div>
      <div className='board-cards'>
        <div className='board-card'>
@@ -30,4 +30,4 @@ function Board() {
   )
 }
 
-export default Board
+export default Staff
