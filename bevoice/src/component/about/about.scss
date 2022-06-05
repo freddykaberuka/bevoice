@@ -40,3 +40,50 @@
       text-align: left;
     }
 }
+.approach{
+  border-top: 10px solid black;
+  h1{
+    font-size: 50px;
+    font-weight:bold;
+  }
+}
+.approach-container{
+    display: flex;
+    margin: 0 200px;
+    .missions{
+        text-align: left;
+        padding-right: 20px;
+        font-size: 18px;
+        h3{
+            font-size: 32px;
+        }
+    }
+    .projects{
+        text-align: left;
+        font-size: 18px;
+        h3{
+            font-size: 32px;
+        }
+        h4{
+            font-size: 26px;
+        }
+    }
+}
+.board-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 100px;
+}
+.board-card {
+    width: 100px;
+    width: 150px;
+    .img{
+    border-color: orange 10px;
+        width: 100%;
+    }
+}
+.header-title{
+    width: 100%;
+    padding: 10px 0;
+    background-color: rgb(244, 240, 240);
+}
