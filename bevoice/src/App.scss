@@ -14,6 +14,42 @@
     font-size: calc(10px + 2vmin);
     color: white;
   }
+  .footer-update{
+    background-color: #000;
+    height: 350px;
+    .footer-update-title{
+      padding-top: 40px;
+      color: white;
+      justify-content: center;
+    }
+    .footer-update-form{
+      padding-top: 50px;
+      input{
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+    }
+  }
+  .footer-logo-social{
+    display: flex;
+    justify-content: space-around;
+    .connectUs{
+      display: flex;
+      .social{
+        display: flex;
+        li{
+          list-style: none;
+          padding-left: 20px;
+        }
+      }
+    }
+  }
+
 }
 
 
