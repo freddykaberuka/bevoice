@@ -1,5 +1,6 @@
 import React from 'react'
-
+import loc from '../assets/pin.png'
+import mail from '../assets/mail.png'
 function Footer() {
   return (
     <div>
@@ -20,14 +21,17 @@ function Footer() {
                             <ul>
                                 <li>Address 1</li>
                                 <li>Address 2</li>
-                                <li>Address 3</li>
-                                <li>Address 4</li>
+                                <li>Address Line 3</li>
+                                
+                                <li>Address Line 4</li>
                             </ul>
                         </div>
                         <div className="connectUs">
                             <h6>Social Media</h6>
                             <ul className='social'>
-                                <li>Twitter</li>
+                                <li>Twitter
+                                    <icon icon="fa-brands fa-twitter" />
+                                </li>
                                 <li>FaceBook</li>
                                 <li>Linkden</li>
                             </ul>
