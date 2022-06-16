@@ -6,13 +6,15 @@ import About from './component/about/about';
 import Footer from './component/footer';
 import Landing from './component/home';
 import Header from './component/header';
+import AboutPage from './component/about';
 function App() {
   return (
     <div className="App">
       {/* <Home/> */}
       <Header/>
       {/* <About/> */}
-      <Landing/>
+      {/* <Landing/> */}
+      <AboutPage/>
       <Footer/>
     </div>
   );
