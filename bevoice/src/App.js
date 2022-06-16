@@ -7,6 +7,7 @@ import Footer from './component/footer';
 import Landing from './component/home';
 import Header from './component/header';
 import AboutPage from './component/about';
+import Gallery from './component/gallery';
 function App() {
   return (
     <div className="App">
@@ -14,7 +15,8 @@ function App() {
       <Header/>
       {/* <About/> */}
       {/* <Landing/> */}
-      <AboutPage/>
+      <Gallery/>
+      {/* <AboutPage/> */}
       <Footer/>
     </div>
   );
