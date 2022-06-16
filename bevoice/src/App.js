@@ -14,8 +14,8 @@ function App() {
       {/* <Home/> */}
       <Header/>
       {/* <About/> */}
-      {/* <Landing/> */}
-      <Gallery/>
+      <Landing/>
+      {/* <Gallery/> */}
       {/* <AboutPage/> */}
       <Footer/>
     </div>

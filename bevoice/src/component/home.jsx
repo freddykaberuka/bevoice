@@ -1,4 +1,5 @@
 import React from 'react'
+import Member from './helper/member'
 
 function Landing() {
   return (
@@ -263,27 +264,7 @@ function Landing() {
                 </div>
                 </div>
             </section>
-            <div className="callout">
-                <div className="container">
-                        <div className="row">
-                            <div className="col-md-6">
-                                <h2>Change Their World. Change Yours. This changes everything.</h2>
-                            </div>
-                            
-                            <div className="col-md-6">
-                                <div className="callout-actions">
-                                    <a href="contact.html" className="button">Become Volunteer</a>
-
-                                    <span className="callout-separator">
-                                        <span>Or</span>
-                                    </span>
-
-                                    <a href="donate.html" className="button">Donate For Cause</a>
-                                </div>
-                            </div>
-                        </div>
-                </div>
-            </div>
+            <Member/>
     </div>
   )
 }
