@@ -4,9 +4,10 @@
     padding: 16px;
     .history-image {
         width: 30%;
+        padding-right: 10px;
         img {
             width: 100%;
-            
+            border-radius: 15%;
         }
     }
     .history-desc{
@@ -27,9 +28,12 @@
 }
 .history-image-boss {
     width: 50%;
+    padding-right: 10px;
+    padding-top: 30px;
     img {
         width: 100%;
-        height: 100vh;
+        border-radius: 2%;
+        height: 80vh;
         object-fit: cover;
     }
 }
