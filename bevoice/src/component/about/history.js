@@ -1,5 +1,6 @@
 import React from 'react'
 import image1 from '../../assets/13.JPG'
+import arsene from '../../assets/arsen.jpg'
 
 function History() {
   return (
@@ -24,7 +25,7 @@ function History() {
             </div>
             <div className="history-boss">
                 <div className="history-image-boss">
-                    <img src={image1}/>
+                    <img src={arsene}/>
                 </div>
                 <div className="history-desc-boss">
                     <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -34,11 +35,6 @@ function History() {
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         Temporibus quae sunt adipisci? Eligendi asperiores minus cupiditate labore in placeat unde. 
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Temporibus quae sunt adipisci? Eligendi asperiores minus cupiditate labore in placeat unde.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Temporibus quae sunt adipisci? Eligendi asperiores minus cupiditate labore in placeat unde. 
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Temporibus quae sunt adipisci? Eligendi asperiores minus cupiditate labore in placeat unde.
                     </p>
                     <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         Temporibus quae sunt adipisci? Eligendi asperiores minus cupiditate labore in placeat unde. 
@@ -47,17 +43,11 @@ function History() {
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         Temporibus quae sunt adipisci? Eligendi asperiores minus cupiditate labore in placeat unde. 
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Temporibus quae sunt adipisci? Eligendi asperiores minus cupiditate labore in placeat unde.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Temporibus quae sunt adipisci? Eligendi asperiores minus cupiditate labore in placeat unde. 
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Temporibus quae sunt adipisci? Eligendi asperiores minus cupiditate labore in placeat unde.
                     </p>
                     
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam aspernatur nobis, 
                         quod quae sit non earum nam perspiciatis officiis tenetur.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         Temporibus quae sunt adipisci? Eligendi asperiores minus cupiditate labore in placeat unde.
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         Temporibus quae sunt adipisci? Eligendi asperiores minus cupiditate labore in placeat unde. 
@@ -66,11 +56,6 @@ function History() {
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         Temporibus quae sunt adipisci? Eligendi asperiores minus cupiditate labore in placeat unde. 
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Temporibus quae sunt adipisci? Eligendi asperiores minus cupiditate labore in placeat unde.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Temporibus quae sunt adipisci? Eligendi asperiores minus cupiditate labore in placeat unde. 
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Temporibus quae sunt adipisci? Eligendi asperiores minus cupiditate labore in placeat unde.
                     </p>
                     <p>
                         Temporibus quae sunt adipisci? Eligendi asperiores minus cupiditate labore in placeat unde. 
