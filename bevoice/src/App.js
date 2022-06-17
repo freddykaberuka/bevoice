@@ -14,14 +14,7 @@ import {Route, Routes} from 'react-router-dom'
 function App() {
   return (
     <div className="App">
-      {/* <Home/> */}
       <Header/>
-      {/* <About/> */}
-      {/* <Landing/> */}
-      {/* <Gallery/> */}
-      {/* <AboutPage/> */}
-      {/* <Project/> */}
-      {/* <Contact/> */}
       <Routes>
         <Route path='/' element={<Landing/>}/>
         <Route path='/about' element={<AboutPage/>}/>
