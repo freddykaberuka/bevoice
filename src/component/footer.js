@@ -1,6 +1,6 @@
 import React from 'react'
-import loc from '../assets/pin.png'
-import mail from '../assets/mail.png'
+// import loc from '../assets/pin.png'
+// import mail from '../assets/mail.png'
 function Footer() {
   return (
     <div>

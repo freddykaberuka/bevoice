@@ -4,7 +4,7 @@ function Aproach() {
   return (
     <div className='approach'>
         <h1>OUR APPROACH</h1>
-        <div className="approach-container">
+        {/* <div className="approach-container">
             <div className="missions">
               <div>
                 <h3>— Our Mission</h3>
@@ -49,7 +49,7 @@ function Aproach() {
               </div>
               <button>LEARN MORE</button>
             </div>
-        </div>
+        </div> */}
     </div>
   )
 }

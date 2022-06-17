@@ -5,7 +5,7 @@ import './home.scss';
 function Slider() {
   return (
     <div>
-        <div className="slider"><img src={image1}/></div>
+        <div className="slider"><img src={image1} alt=""/></div>
     </div>
   )
 }

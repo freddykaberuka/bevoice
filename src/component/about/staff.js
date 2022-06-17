@@ -1,9 +1,9 @@
 import React from 'react'
-import image1 from '../../assets/arsen.jpg'
+// import image1 from '../../assets/arsen.jpg'
 function Staff() {
   return (
     <div>
-    <div className="header-title">
+    {/* <div className="header-title">
       <h1>STAFF TEAM</h1>
     </div>
      <div className='board-cards'>
@@ -25,7 +25,7 @@ function Staff() {
        <div className='board-card'>
          <img src={image1}/>
        </div>
-     </div>
+     </div> */}
     </div>
   )
 }

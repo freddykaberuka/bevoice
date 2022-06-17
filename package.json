@@ -1,5 +1,6 @@
 {
   "name": "bevoice",
+  "homepage": "https://bevoice.org/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

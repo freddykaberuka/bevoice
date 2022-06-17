@@ -7,7 +7,7 @@ function History() {
     <div>
         <div className="container">
             <div className="history-cont">
-                <div className="history-image"><img src={image1}/></div>
+                <div className="history-image"><img src={image1} alt=""/></div>
                 <div className="history-desc">
                     <p> Bevoice is non-Government non-profit organization founded by A Humanitarian activist in 2019 to support 
                         the community experiencing extremely poverty, limited access to education and health.
@@ -20,7 +20,7 @@ function History() {
             </div>
             <div className="history-boss">
                 <div className="history-image-boss">
-                    <img src={arsene}/>
+                    <img src={arsene} alt=""/>
                 </div>
                 <div className="history-desc-boss">
                     

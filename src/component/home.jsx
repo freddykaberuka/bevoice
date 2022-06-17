@@ -17,25 +17,33 @@ function Landing() {
                     {/* Item 1  */}
                     <div className="item active slide1">
                                 <h2 data-animation="animated bounceInDown"><span>Be The Voice</span></h2>
-                                <h3 data-animation="animated bounceInDown">consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.!</h3>
+                                <h3 data-animation="animated bounceInDown">initiative to advocate for these vulnerable children by reaching out to the
+communities that can support them and pay their school fees and other school Materials as well.
+Advocacy is sometimes interpreted as being confrontational between the school and family
+members.</h3>
                                 <h4 data-animation="animated bounceInUp"><a href="/about">READ MORE</a></h4>             
                     </div> 
                     {/* Item 2  */}
                     <div className="item slide2">
-                                <h2 data-animation="animated bounceInDown"><span>More charity More better life</span></h2>
-                                <h3 data-animation="animated bounceInDown">consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.!</h3>
+                                <h2 data-animation="animated bounceInDown"><span>Be The Voice</span></h2>
+                                <h3 data-animation="animated bounceInDown">give them its commitments through protecting the value of
+Humanity and advocating for their rights to health treatment and family.</h3>
                                 <h4 data-animation="animated bounceInUp"><a href="about-us.html">READ MORE</a></h4>             
                     </div>
                     {/* Item 3  */}
                     <div className="item slide3">
-                                <h2 data-animation="animated bounceInDown"><span>Raise fund Warm heart</span></h2>
-                                <h3 data-animation="animated bounceInDown">consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.!</h3>
+                                <h2 data-animation="animated bounceInDown"><span>Be The Voice</span></h2>
+                                <h3 data-animation="animated bounceInDown">We believe that empowering women by enhancing their capacity to manage
+economic and social risks</h3>
                                 <h4 data-animation="animated bounceInUp"><a href="about-us.html">READ MORE</a></h4>             
                     </div>
                     {/* < Item 4  */}
                     <div className="item slide4">
-                                <h2 data-animation="animated bounceInDown"><span>Raise your funds for a cause</span></h2>
-                                <h3 data-animation="animated bounceInDown">consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.!</h3>
+                                <h2 data-animation="animated bounceInDown"><span>Be The Voice</span></h2>
+                                <h3 data-animation="animated bounceInDown">we want to
+live and experience the significance of humanity, we are hoping to give 
+our commitments through protecting the value of Humanity and advocating
+for their rights to education, health and family.</h3>
                                 <h4 data-animation="animated bounceInUp"><a href="about-us.html">READ MORE</a></h4>             
                     </div>
                     {/* <!-- End Item 4 --> */}
@@ -162,7 +170,7 @@ function Landing() {
                 <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
                 <div className="text-center"> 
                 <div className="col-md-4 clearfix top-off">
-                <div className="grid-image"><img src="images/test1.jpg"/></div>
+                <div className="grid-image"><img src="images/test1.jpg" alt=""/></div>
                 <div className="post-content">
                 <h3>Nepal Earthquake: Clean Water Initiative</h3>
                 <hr/>
@@ -171,7 +179,6 @@ function Landing() {
                 </div>
                 </div>
                 <div className="col-md-4 clearfix top-off">
-                <div className="grid-image"><img src="images/test2.jpg"/></div>
                 <div className="post-content">
                 <h3>Nepal Earthquake: Clean Water Initiative</h3>
                 <hr/>
@@ -180,7 +187,7 @@ function Landing() {
                 </div>
                 </div>
                 <div className="col-md-4 clearfix top-off">
-                <div className="grid-image"><img src="images/test3.jpg"/></div>
+                <div className="grid-image"><img src="images/test3.jpg" alt=""/></div>
                 <div className="post-content">
                 <h3>Nepal Earthquake: Clean Water Initiative</h3>
                 <hr/>
@@ -202,13 +209,13 @@ function Landing() {
 
                 <li>
                 <a href="images/gallery1.jpg" className="swipebox" title="My Caption">
-                <div className="image"><img src="images/gallery1.jpg"/>
+                <div className="image"><img src="images/gallery1.jpg" alt=""/>
                 <div className="overlay"><i className="fa fa-search-plus"></i></div>
                 </div></a>
                 </li>
                 <li>
                 <a href="images/gallery2.jpg" className="swipebox" title="My Caption">
-                <div className="image"><img src="images/gallery2.jpg"/>
+                <div className="image"><img src="images/gallery2.jpg" alt=""/>
                 <div className="overlay"><i className="fa fa-search-plus"></i></div>
                 </div>
                 </a>
@@ -216,7 +223,7 @@ function Landing() {
 
                 <li>
                 <a href="images/gallery3.jpg" className="swipebox" title="My Caption">
-                <div className="image"><img src="images/gallery3.jpg"/>
+                <div className="image"><img src="images/gallery3.jpg" alt=""/>
                 <div className="overlay"><i className="fa fa-search-plus"></i></div>
                 </div>
                 </a>
@@ -224,35 +231,35 @@ function Landing() {
 
                 <li>
                 <a href="images/gallery4.jpg" className="swipebox" title="My Caption">
-                <div className="image"><img src="images/gallery4.jpg"/>
+                <div className="image"><img src="images/gallery4.jpg" alt=""/>
                 <div className="overlay"><i className="fa fa-search-plus"></i></div>
                 </div>
                 </a>
                 </li>
                 <li>
                 <a href="images/gallery5.jpg" className="swipebox" title="My Caption">
-                <div className="image"><img src="images/gallery5.jpg"/>
+                <div className="image"><img src="images/gallery5.jpg" alt=""/>
                 <div className="overlay"><i className="fa fa-search-plus"></i></div>
                 </div>
                 </a>
                 </li>
                 <li>
                 <a href="images/gallery6.jpg" className="swipebox" title="My Caption">
-                <div className="image"><img src="images/gallery6.jpg"/>
+                <div className="image"><img src="images/gallery6.jpg" alt=""/>
                 <div className="overlay"><i className="fa fa-search-plus"></i></div>
                 </div>
                 </a>
                 </li>
                 <li>
                 <a href="images/gallery7.jpg" className="swipebox" title="My Caption">
-                <div className="image"><img src="images/gallery7.jpg"/>
+                <div className="image"><img src="images/gallery7.jpg" alt=""/>
                 <div className="overlay"><i className="fa fa-search-plus"></i></div>
                 </div>
                 </a>
                 </li>
                 <li>
                 <a href="images/gallery8.jpg" className="swipebox" title="My Caption">
-                <div className="image"><img src="images/gallery8.jpg"/>
+                <div className="image"><img src="images/gallery8.jpg" alt=""/>
                 <div className="overlay"><i className="fa fa-search-plus"></i></div>
                 </div>
                 </a>

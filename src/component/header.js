@@ -14,11 +14,11 @@ function Header() {
             <i className="fa fa-envelope"></i> <span>Mail Us :</span> <strong>info@bevoice.com</strong>
             </div>
             <div className="header-social">
-            <a className="facebook" href="#" title="facebook" target="_blank" rel="nofollow"><i className="fa fa-facebook"></i>  </a>
-            <a className="twitter" href="#" title="twitter" target="_blank" rel="nofollow"><i className="fa fa-twitter"></i>  </a>
-            <a className="linkedin" href="#" title="linkedin" target="_blank" rel="nofollow"><i className="fa fa-linkedin"></i>  </a>
-            <a className="google" href="#" title="google-plus" target="_blank" rel="nofollow"><i className="fa fa-google-plus"></i>  </a>
-            <a className="youtube" href="#" title="youtube-play" target="_blank" rel="nofollow"><i className="fa fa-youtube-play"></i>  </a>
+            <Link className="facebook" to="#" title="facebook" target="_blank" rel="nofollow"><i className="fa fa-facebook"></i>  </Link>
+            <Link className="twitter" to="#" title="twitter" target="_blank" rel="nofollow"><i className="fa fa-twitter"></i>  </Link>
+            <Link className="linkedin" to="#" title="linkedin" target="_blank" rel="nofollow"><i className="fa fa-linkedin"></i>  </Link>
+            <Link className="google" to="#" title="google-plus" target="_blank" rel="nofollow"><i className="fa fa-google-plus"></i>  </Link>
+            <Link className="youtube" to="#" title="youtube-play" target="_blank" rel="nofollow"><i className="fa fa-youtube-play"></i>  </Link>
             </div>
             </div>
             </div>
@@ -34,7 +34,7 @@ function Header() {
             <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
             <i className="fa fa-bars"></i>
             </button>
-            <a className="navbar-brand logo" href="index.html"><img src="images/assets/logo.png" className="img-responsive" /></a>
+            <Link className="navbar-brand logo" to="/"><img src="images/assets/logo.png" className="img-responsive" alt=""/></Link>
             </div>
             <div className="collapse navbar-collapse" id="navbar-menu">
             <ul className="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">

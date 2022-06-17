@@ -5,24 +5,24 @@ function Project() {
   return (
     <div>
         <section id="inner-banner">
-<div class="overlay">
-<div class="container">
-<div class="row"> 
-<div class="col-sm-6"><h1>PROJECTS</h1></div>
-<div class="col-sm-6">
-  <h6 class="breadcrumb"><a href="index.html">Home</a> / Projects</h6></div>
+<div className="overlay">
+<div className="container">
+<div className="row"> 
+<div className="col-sm-6"><h1>PROJECTS</h1></div>
+<div className="col-sm-6">
+  <h6 className="breadcrumb"><a href="index.html">Home</a> / Projects</h6></div>
 </div>
 </div>
 </div>
 </section>
 
 <section id="pro-sec">
-<div class="container">
-<div class="row text-center pro-sec-wrap">
+<div className="container">
+<div className="row text-center pro-sec-wrap">
 
-<div class="col-sm-6 col-md-4 clearfix top-off">
-<div class="grid-image"><img src={image}/></div>
-<div class="post-content">
+<div className="col-sm-6 col-md-4 clearfix top-off">
+<div className="grid-image"><img src={image} alt=""/></div>
+<div className="post-content">
 <h3>Gahanga Project: Clean Water Initiative</h3>
 <hr/>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -30,9 +30,9 @@ function Project() {
 </div>
 
 </div>
-<div class="col-sm-6 col-md-4 clearfix top-off">
-<div class="grid-image"><img src={image}/></div>
-<div class="post-content">
+<div className="col-sm-6 col-md-4 clearfix top-off">
+<div className="grid-image"><img src={image} alt=""/></div>
+<div className="post-content">
 <h3>Gahanga Project: Clean Water Initiative</h3>
 <hr/>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -40,9 +40,9 @@ function Project() {
 </div>
 </div>
 
-<div class="col-sm-6 col-md-4 clearfix top-off">
-<div class="grid-image"><img src={image}/></div>
-<div class="post-content">
+<div className="col-sm-6 col-md-4 clearfix top-off">
+<div className="grid-image"><img src={image} alt=""/></div>
+<div className="post-content">
 <h3>Gahanga Project: Clean Water Initiative</h3>
 <hr/>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -50,9 +50,9 @@ function Project() {
 </div>
 </div>
 
-<div class="col-sm-6 col-md-4 clearfix top-off">
-<div class="grid-image"><img src={image}/></div>
-<div class="post-content">
+<div className="col-sm-6 col-md-4 clearfix top-off">
+<div className="grid-image"><img src={image} alt=""/></div>
+<div className="post-content">
 <h3>Gahanga Project: Clean Water Initiative</h3>
 <hr/>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -60,9 +60,9 @@ function Project() {
 </div>
 </div>
 
-<div class="col-sm-6 col-md-4 clearfix top-off">
-<div class="grid-image"><img src={image}/></div>
-<div class="post-content">
+<div className="col-sm-6 col-md-4 clearfix top-off">
+<div className="grid-image"><img src={image} alt=""/></div>
+<div className="post-content">
 <h3>Gahanga Project: Clean Water Initiative</h3>
 <hr/>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -70,9 +70,9 @@ function Project() {
 </div>
 </div>
 
-<div class="col-sm-6 col-md-4 clearfix top-off">
-<div class="grid-image"><img src={image}/></div>
-<div class="post-content">
+<div className="col-sm-6 col-md-4 clearfix top-off">
+<div className="grid-image"><img src={image} alt=""/></div>
+<div className="post-content">
 <h3>Gahanga Project: Clean Water Initiative</h3>
 <hr/>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -80,9 +80,9 @@ function Project() {
 </div>
 </div>
 
-<div class="col-sm-6 col-md-4 clearfix top-off">
-<div class="grid-image"><img src={image}/></div>
-<div class="post-content">
+<div className="col-sm-6 col-md-4 clearfix top-off">
+<div className="grid-image"><img src={image} alt=""/></div>
+<div className="post-content">
 <h3>Gahanga Project: Clean Water Initiative</h3>
 <hr/>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -90,9 +90,9 @@ function Project() {
 </div>
 </div>
 
-<div class="col-sm-6 col-md-4 clearfix top-off">
-<div class="grid-image"><img src={image}/></div>
-<div class="post-content">
+<div className="col-sm-6 col-md-4 clearfix top-off">
+<div className="grid-image"><img src={image} alt=""/></div>
+<div className="post-content">
 <h3>Gahanga Project: Clean Water Initiative</h3>
 <hr/>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -100,9 +100,9 @@ function Project() {
 </div>
 </div>
 
-<div class="col-sm-6 col-md-4 clearfix top-off">
-<div class="grid-image"><img src={image}/></div>
-<div class="post-content">
+<div className="col-sm-6 col-md-4 clearfix top-off">
+<div className="grid-image"><img src={image} alt=""/></div>
+<div className="post-content">
 <h3>Gahanga Project: Clean Water Initiative</h3>
 <hr/>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
