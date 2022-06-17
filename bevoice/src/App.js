@@ -8,15 +8,17 @@ import Landing from './component/home';
 import Header from './component/header';
 import AboutPage from './component/about';
 import Gallery from './component/gallery';
+import Project from './component/project';
 function App() {
   return (
     <div className="App">
       {/* <Home/> */}
       <Header/>
       {/* <About/> */}
-      <Landing/>
+      {/* <Landing/> */}
       {/* <Gallery/> */}
       {/* <AboutPage/> */}
+      <Project/>
       <Footer/>
     </div>
   );
