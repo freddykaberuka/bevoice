@@ -10,6 +10,7 @@ import AboutPage from './component/about';
 import Gallery from './component/gallery';
 import Project from './component/project';
 import Contact from './component/contact';
+import {Route, Routes} from 'react-router-dom'
 function App() {
   return (
     <div className="App">
@@ -20,7 +21,14 @@ function App() {
       {/* <Gallery/> */}
       {/* <AboutPage/> */}
       {/* <Project/> */}
-      <Contact/>
+      {/* <Contact/> */}
+      <Routes>
+        <Route path='/' element={<Landing/>}/>
+        <Route path='/about' element={<AboutPage/>}/>
+        <Route path='/projects' element={<Project/>}/>
+        <Route path='/gallery' element={<Gallery/>}/>
+        <Route path='/contact' element={<Contact/>}/>
+      </Routes>
       <Footer/>
     </div>
   );
