@@ -9,6 +9,7 @@ import Header from './component/header';
 import AboutPage from './component/about';
 import Gallery from './component/gallery';
 import Project from './component/project';
+import Contact from './component/contact';
 function App() {
   return (
     <div className="App">
@@ -18,7 +19,8 @@ function App() {
       {/* <Landing/> */}
       {/* <Gallery/> */}
       {/* <AboutPage/> */}
-      <Project/>
+      {/* <Project/> */}
+      <Contact/>
       <Footer/>
     </div>
   );
