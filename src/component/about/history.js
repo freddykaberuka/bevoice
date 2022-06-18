@@ -1,6 +1,7 @@
 import React from 'react'
-import image1 from '../../assets/1.jpg'
+import image1 from '../../assets/ars.jpg'
 import arsene from '../../assets/arsen.jpg'
+import './about.scss'
 
 function History() {
   return (

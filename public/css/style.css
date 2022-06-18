@@ -370,22 +370,22 @@ p{
 /*       Slides backgrounds     */
 /********************************/
 #first-slider .slide1 {
-	background:url(../images/slide1.jpg);
+	background:url(../images/assets/4.JPG);
     background-size: 100%;
     background-repeat: no-repeat;
 }
 #first-slider .slide2 {
-	background:url(../images/slide2.jpg);
+	background:url(../images/slide1.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
 }
 #first-slider .slide3 {
-	background:url(../images/slide3.jpg);
+	background:url(../images/assets/4.JPG);
     background-size: 100%;
     background-repeat: no-repeat;
 }
 #first-slider .slide4 {
-	background:url(../images/slide4.jpg);
+	background:url(../images/slide1.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
 }

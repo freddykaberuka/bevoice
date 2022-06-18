@@ -60,8 +60,8 @@ Phone 02: +250 0781964133</p>
 </div>
 <h3>ADDRESS</h3>
 <div className="fancy-box-content">
-<p>3104 Doctors Drive, Los Angeles,<br/>
-California, United States</p>
+<p>512 Ziniya Kicukiro, Kigali,<br/>
+ Rwanda</p>
 </div>
 </div>
 </div>

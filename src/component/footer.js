@@ -1,6 +1,7 @@
 import React from 'react'
 // import loc from '../assets/pin.png'
 // import mail from '../assets/mail.png'
+import { Link } from 'react-router-dom'
 function Footer() {
   return (
     <div>
@@ -25,26 +26,26 @@ function Footer() {
 						<div className="footer-section-body">
 							<ul className="list-links">
 								<li>
-									<a href="index.html">Home</a>
+									<Link to="/">Home</Link>
 								</li>
 								
 								<li>
-									<a href="about-us.html">About Us</a>
+									<Link to="/about">About Us</Link>
 								</li>
 								
 								<li>
-									<a href="activities.html">Activities</a>
+									<Link to="/">Activities</Link>
 								</li>
                                 <li>
-									<a href="projects.html">Projects</a>
+									<Link to="/projects">Projects</Link>
 								</li>
 								
 								<li>
-									<a href="gallery.html">Gallery</a>
+									<Link to="/gallery">Gallery</Link>
 								</li>
 								
 								<li>
-									<a href="contact.html">Contact Us</a>
+									<Link to="/contact">Contact Us</Link>
 								</li>
 								
 							</ul>
@@ -78,7 +79,7 @@ function Footer() {
 						<h4 className="footer-section-title">Contact Us</h4>
 						
 						<div className="footer-section-body">
-							<p><b>Address:</b> 3104 Doctors Drive, Los Angeles, California, United States</p>
+							<p><b>Address:</b> 512 Ziniya Kicukiro, Kigali, Rwanda</p>
 
 							<div className="footer-contacts">
 								<p>

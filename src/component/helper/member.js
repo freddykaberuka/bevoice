@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 function Member() {
   return (
     <div>
@@ -12,7 +12,7 @@ function Member() {
 			
 			<div className="col-md-6">
 				<div className="callout-actions">
-					<a href="contact.html" className="button">Become a Member</a>
+					<Link to="/contact" className="button">Become a Member</Link>
 
 					<span className="callout-separator">
 						<span>Or</span>

@@ -14,7 +14,7 @@ function AboutPage() {
             <div className="row"> 
             <div className="col-sm-6"><h1>ABOUT US</h1></div>
             <div className="col-sm-6">
-            <h6 className="breadcrumb"><a href="index.html">Home</a> / About us</h6></div>
+            <h6 className="breadcrumb"><Link to="/">Home</Link> / About us</h6></div>
             </div>
             </div>
             </div>
@@ -52,21 +52,21 @@ function AboutPage() {
             <div className="help-text">
             <h4>Our Mission</h4>
             <div className="line line-50"></div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Our mission is to support the individuals experiencing poverty for sustainable development and Educate the Values of Humanity.</p>
             </div>
             </div>
             <div className="col-md-6 clearfix top-off">
             <div className="help-text">
             <h4>Our Vision</h4>
             <div className="line line-50"></div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>We are Envisioned to not See the Value of the Individuals experiencing extremely poverty be Measured by their lower living standards.</p>
             </div>
             </div>
             <div className="col-md-6 clearfix top-off">
             <div className="help-text">
             <h4>Area of focus</h4>
             <div className="line line-50"></div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>BEVOICE is youth Humanitarians community based non- profit organization which works in the area of social development</p>
             </div>
             </div>
             <div className="col-md-6 clearfix top-off">
