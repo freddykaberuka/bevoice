@@ -14,7 +14,12 @@ function Footer() {
 						<h4 className="footer-section-title">About Bevoice</h4>
 						
 						<div className="footer-section-body">
-							<p>Charity vitae diam pulvinar, tempus dia aliquam tellus. Quisque mattis odio eu placerat luctus. Vivamus magna elit, ultrices non lacinia vel, tempor vitae tell Fusce sit amet sem sit amet.</p>
+							<p>BEVOICE is youth Humanitarians community
+based non- profit organization.which works in
+the area of social development started in 2019
+to support the individuals experiencing poverty
+in Education, Health and Capacity building as a
+contribution of Youths to eradicate poverty.</p>
 						</div>
 					</div>
 				</div>
@@ -34,7 +39,7 @@ function Footer() {
 								</li>
 								
 								<li>
-									<Link to="/">Activities</Link>
+									<Link to="/activity">Activities</Link>
 								</li>
                                 <li>
 									<Link to="/projects">Projects</Link>

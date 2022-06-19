@@ -40,7 +40,7 @@ function Header() {
             <ul className="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
               <li><Link to="/">Home</Link></li>
               <li><Link to="/about">About Us</Link></li>
-              <li><Link to="">Activities</Link></li>
+              <li><Link to="/activity">Activities</Link></li>
               <li><Link to="/projects">Projects</Link></li>
               <li><Link to="/photo">Gallery</Link></li>
               <li><Link to="/contact">Contact Us</Link></li>

@@ -1,5 +1,6 @@
 import React from 'react'
 import Member from './helper/member'
+import { Link } from 'react-router-dom'
 
 function Contact() {
   return (
@@ -10,7 +11,7 @@ function Contact() {
 <div className="row"> 
 <div className="col-sm-6"><h1>CONTACT US</h1></div>
 <div className="col-sm-6">
-  <h6 className="breadcrumb"><a href="index.html">Home</a> / Contact us</h6></div>
+  <h6 className="breadcrumb"><Link to="/">Home</Link> / Contact us</h6></div>
 </div>
 </div>
 </div>

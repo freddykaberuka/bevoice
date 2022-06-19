@@ -1,6 +1,8 @@
 import React from 'react'
 import image from '../assets/12.jpg'
 import Member from './helper/member'
+import { Link } from 'react-router-dom'
+
 function Project() {
   return (
     <div>
@@ -10,7 +12,7 @@ function Project() {
 <div className="row"> 
 <div className="col-sm-6"><h1>PROJECTS</h1></div>
 <div className="col-sm-6">
-  <h6 className="breadcrumb"><a href="index.html">Home</a> / Projects</h6></div>
+  <h6 className="breadcrumb"><Link to="/">Home</Link> / Projects</h6></div>
 </div>
 </div>
 </div>
@@ -26,7 +28,7 @@ function Project() {
 <h3>Gahanga Project: Clean Water Initiative</h3>
 <hr/>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-<a href="donate.html" title="" >Join Us</a>
+<Link to="/" title="" >Join Us</Link>
 </div>
 
 </div>
@@ -36,7 +38,7 @@ function Project() {
 <h3>Gahanga Project: Clean Water Initiative</h3>
 <hr/>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-<a href="donate.html" title="" >Join Us</a>
+<Link to="/" title="" >Join Us</Link>
 </div>
 </div>
 
@@ -46,7 +48,7 @@ function Project() {
 <h3>Gahanga Project: Clean Water Initiative</h3>
 <hr/>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-<a href="donate.html" title="" >Join Us</a>
+<Link to="/" title="" >Join Us</Link>
 </div>
 </div>
 
@@ -56,7 +58,7 @@ function Project() {
 <h3>Gahanga Project: Clean Water Initiative</h3>
 <hr/>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-<a href="donate.html" title="" >Join Us</a>
+<Link to="/" title="" >Join Us</Link>
 </div>
 </div>
 
@@ -66,7 +68,7 @@ function Project() {
 <h3>Gahanga Project: Clean Water Initiative</h3>
 <hr/>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-<a href="donate.html" title="" >Join Us</a>
+<Link to="donate.html" title="" >Join Us</Link>
 </div>
 </div>
 
@@ -76,7 +78,7 @@ function Project() {
 <h3>Gahanga Project: Clean Water Initiative</h3>
 <hr/>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-<a href="donate.html" title="" >Join Us</a>
+<Link to="/" title="" >Join Us</Link>
 </div>
 </div>
 
@@ -86,7 +88,7 @@ function Project() {
 <h3>Gahanga Project: Clean Water Initiative</h3>
 <hr/>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-<a href="donate.html" title="" >Join Us</a>
+<Link to="/" title="" >Join Us</Link>
 </div>
 </div>
 
@@ -96,7 +98,7 @@ function Project() {
 <h3>Gahanga Project: Clean Water Initiative</h3>
 <hr/>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-<a href="donate.html" title="" >Join Us</a>
+<Link to="/" title="" >Join Us</Link>
 </div>
 </div>
 
@@ -106,7 +108,7 @@ function Project() {
 <h3>Gahanga Project: Clean Water Initiative</h3>
 <hr/>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-<a href="donate.html" title="" >Join Us</a>
+<Link to="/" title="" >Join Us</Link>
 </div>
 </div>
 
