@@ -12,7 +12,7 @@ function Gallery() {
 <div className="row"> 
 <div className="col-sm-6"><h1>GALLERY</h1></div>
 <div className="col-sm-6">
-  <h6 className="breadcrumb"><a href="index.html">Home</a> / Gallery</h6></div>
+  <h6 className="breadcrumb"><Link to="/">Home</Link> / Gallery</h6></div>
 </div>
 </div>
 </div>

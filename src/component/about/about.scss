@@ -8,6 +8,7 @@
         img {
             width: 100%;
             border-radius: 15%;
+            object-fit: cover;
         }
     }
     .history-desc{
@@ -91,4 +92,32 @@
     width: 100%;
     padding: 10px 0;
     background-color: rgb(244, 240, 240);
+}
+
+@media only screen and (max-width:700px) {
+    .history-cont{
+        display: flex;
+        flex-direction: column;
+        .history-image {
+            width: 100%;
+        }
+        .history-desc{
+            width: 100%;
+            p{
+                text-align: center;
+            }
+        }
+    }
+    .history-boss {
+        display: flex;
+        flex-direction: column;
+        .history-image-boss {
+            width: 100%;
+        }
+        .history-desc-boss{
+            width: 100%;
+            text-align: center;
+        }
+    }
+    
 }

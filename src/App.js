@@ -11,6 +11,8 @@ import Gallery from './component/gallery';
 import Project from './component/project';
 import Contact from './component/contact';
 import {Route, Routes} from 'react-router-dom'
+import Activities from './component/activities';
+
 function App() {
   return (
     <div className="App">
@@ -19,8 +21,9 @@ function App() {
         <Route path='/' element={<Landing/>}/>
         <Route path='/about' element={<AboutPage/>}/>
         <Route path='/projects' element={<Project/>}/>
-        <Route path='/gallery' element={<Gallery/>}/>
+        <Route path='/photo' element={<Gallery/>}/>
         <Route path='/contact' element={<Contact/>}/>
+        <Route path='/activity' element={<Activities/>}/>
       </Routes>
       <Footer/>
     </div>

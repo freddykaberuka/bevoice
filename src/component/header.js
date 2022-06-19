@@ -38,12 +38,12 @@ function Header() {
             </div>
             <div className="collapse navbar-collapse" id="navbar-menu">
             <ul className="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/about">About Us</Link></li>
-            <li><Link to="">Activities</Link></li>
-            <li><Link to="/projects">Projects</Link></li>
-            <li><Link to="/gallery">Gallery</Link></li>
-            <li><Link to="/contact">Contact Us</Link></li>
+              <li><Link to="/">Home</Link></li>
+              <li><Link to="/about">About Us</Link></li>
+              <li><Link to="">Activities</Link></li>
+              <li><Link to="/projects">Projects</Link></li>
+              <li><Link to="/photo">Gallery</Link></li>
+              <li><Link to="/contact">Contact Us</Link></li>
             </ul>
             </div>
             </div>

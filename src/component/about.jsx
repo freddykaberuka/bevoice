@@ -34,7 +34,7 @@ function AboutPage() {
                 <div className="text-left"> 
                 <div className="col-md-12 clearfix top-off">
                 <video width="400" controls>
-                <source src="images/mov_bbb.mp4" type="video/mp4"/>
+                <source src="../assets/aaaaa.mp4" type="video/mp4"/>
                 </video>
                 </div>
                 </div>
@@ -85,7 +85,6 @@ function AboutPage() {
             <div className="row text-center">
             <h1>MEET OUR TEAM</h1>
             <hr/>
-            <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
             <div className="member col-xs-6 col-md-3">
             <div className="inner">
             <div className="avatar-inner"><img src={fred} alt=""/></div>

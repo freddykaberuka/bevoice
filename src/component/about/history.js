@@ -48,7 +48,12 @@ function History() {
                         His faith became faithless that forwarded him to commit suicide but luckily didn’t die so to restrict himself from thinking about himself, he used drugs. I met him over and asked him 
                         the reason why he was doing such unhealthy thing?
                     </p>
-
+                    <p>
+                        He replied with sadness that he hadn’t reason to live because he was lonely with no family and home so nothing to lose. I asked him again, what do you wish? He replied, if I had a family, I would not have lived like this, I want to be treated well but nobody is caring.
+                    </p>
+                    <p>
+                        From that day on, I started to ignite his hope by preventing him from drugs taking, I decided to take care of him as his father, I was 18years old that time. That journey took more than 3years, caring him returned his value for rights he didn’t have, now today the orphaned boy formed a group of youth with the same story to protect others from drugs using. His story pushed me to write a book called ‘the dream to solve true thunder storming life-based story book.
+                    </p>
                 </div>
             </div>
         </div>
