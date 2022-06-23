@@ -1,10 +1,10 @@
 import arsen from '../assets/arsen.jpg'
-import kent from '../assets/members/muhire kent photo.jpg'
-import laurent from '../assets/members/Laurent photo.JPG'
-import marium from '../assets/members/marium photo.jpg'
-import pamela from '../assets/members/IMG-20210820-WA0012.jpg'
-import augustin from '../assets/members/bizimana Augustin.png'
-import robert from '../assets/members/iradukunda robert.jpg'
+// import kent from '../assets/members/muhire kent photo.jpg'
+// import laurent from '../assets/members/Laurent photo.JPG'
+// import marium from '../assets/members/marium photo.jpg'
+// import pamela from '../assets/members/IMG-20210820-WA0012.jpg'
+// import augustin from '../assets/members/bizimana Augustin.png'
+// import robert from '../assets/members/iradukunda robert.jpg'
 import grace from '../assets/members/grace.png'
 
 const Members = [
