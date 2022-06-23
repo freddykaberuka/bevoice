@@ -42,7 +42,7 @@ const Members = [
     {
         imageName:"Bizimana Augustin",
         position:"developer",
-        image:grace
+        image:augustin
     },
     {
         imageName:"Iradukunda Robert",

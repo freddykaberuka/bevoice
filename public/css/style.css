@@ -829,8 +829,17 @@ video {
     width: 150px;
     border: 2px solid #2f3191;
 }
-#team .member {
+#team {
     margin-top: 30px;
+}
+.team-member{
+    margin-top: 50px;
+}
+.member{
+    /* max-width: 300px; */
+    min-height: 100px;
+    max-height: 250px;
+    overflow: hidden;
 }
 /* 479x493 */
 /* 1080 × 1148 */

@@ -91,15 +91,9 @@ function AboutPage() {
             <div className="row text-center">
             <h1>MEET OUR TEAM</h1>
             <hr/>
-            <div className="member col-xs-6 col-md-3">
-            <div className="inner">
-            <div className="avatar-inner"><img src={fred} alt=""/></div>
-            <div className="info"><div className="name"><Link to="#"> Ishimwe Arsene</Link></div><div className="regency"> CEO&FOUNDER</div></div>
-            </div>
-            </div>
             {Members.map((el,index) => {
-        return <div className="member col-xs-6 col-md-3">
-            <div className="inner">
+        return <div className="team-member col-xs-6 col-md-3">
+            <div className="inner member">
             <div className="avatar-inner"><img src={el.image} alt=""/></div>
             <div className="info"><div className="name"><Link to="#"> {el.imageName}</Link></div><div className="regency"> {el.position}</div></div>
             </div>

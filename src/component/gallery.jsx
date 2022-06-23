@@ -1,5 +1,5 @@
 import React from 'react'
-import gallery1 from '../assets/1.jpg'
+import image1 from '../assets/1.jpg'
 import Member from './helper/member'
 import { Link } from 'react-router-dom'
 
@@ -24,110 +24,110 @@ function Gallery() {
 <ul className="clearfix">
 <li>
 <Link to="#" className="swipebox" title="My Caption">
-<div className="image"><img src={gallery1} alt=""/>
-<div className="overlay"><i className="fa fa-search-plus"></i></div>
-</div></Link>
-</li>
-<li>
-<Link href="#" className="swipebox" title="My Caption">
-<div className="image"><img src={gallery1} alt=""/>
-<div className="overlay"><i className="fa fa-search-plus"></i></div>
-</div>
-</Link>
-</li>
-<li>
-<Link to="#" className="swipebox" title="My Caption">
-<div className="image"><img src={gallery1} alt=""/>
-<div className="overlay"><i className="fa fa-search-plus"></i></div>
-</div>
-</Link>
-</li>
-<li>
-<Link href="#" className="swipebox" title="My Caption">
-<div className="image"><img src={gallery1} alt=""/>
-<div className="overlay"><i className="fa fa-search-plus"></i></div>
-</div>
-</Link>
-</li>
-<li>
-<Link href="#" className="swipebox" title="My Caption">
-<div className="image"><img src={gallery1} alt=""/>
-<div className="overlay"><i className="fa fa-search-plus"></i></div>
-</div>
-</Link>
-</li>
-<li>
-<Link to="#" className="swipebox" title="My Caption">
-<div className="image"><img src={gallery1} alt=""/>
-<div className="overlay"><i className="fa fa-search-plus"></i></div>
-</div>
-</Link>
-</li>
-<li>
-<Link to="#" className="swipebox" title="My Caption">
-<div className="image"><img src={gallery1} alt=""/>
-<div className="overlay"><i className="fa fa-search-plus"></i></div>
-</div>
-</Link>
-</li>
-<li>
-<Link to="#" className="swipebox" title="My Caption">
-<div className="image"><img src={gallery1} alt=""/>
-<div className="overlay"><i className="fa fa-search-plus"></i></div>
-</div>
-</Link>
-</li>
-<li>
-<Link href="#" className="swipebox" title="My Caption">
-<div className="image"><img src={gallery1} alt=""/>
+<div className="image"><img src={image1} alt=""/>
 <div className="overlay"><i className="fa fa-search-plus"></i></div>
 </div></Link>
 </li>
 <li>
 <Link to="#" className="swipebox" title="My Caption">
-<div className="image"><img src={gallery1} alt=""/>
+<div className="image"><img src={image1} alt=""/>
 <div className="overlay"><i className="fa fa-search-plus"></i></div>
 </div>
 </Link>
 </li>
 <li>
 <Link to="#" className="swipebox" title="My Caption">
-<div className="image"><img src={gallery1} alt=""/>
+<div className="image"><img src={image1} alt=""/>
 <div className="overlay"><i className="fa fa-search-plus"></i></div>
 </div>
 </Link>
 </li>
 <li>
 <Link to="#" className="swipebox" title="My Caption">
-<div className="image"><img src={gallery1} alt=""/>
+<div className="image"><img src={image1} alt=""/>
 <div className="overlay"><i className="fa fa-search-plus"></i></div>
 </div>
 </Link>
 </li>
 <li>
 <Link to="#" className="swipebox" title="My Caption">
-<div className="image"><img src={gallery1} alt=""/>
+<div className="image"><img src={image1} alt=""/>
 <div className="overlay"><i className="fa fa-search-plus"></i></div>
 </div>
 </Link>
 </li>
 <li>
 <Link to="#" className="swipebox" title="My Caption">
-<div className="image"><img src={gallery1} alt=""/>
+<div className="image"><img src={image1} alt=""/>
 <div className="overlay"><i className="fa fa-search-plus"></i></div>
 </div>
 </Link>
 </li>
 <li>
 <Link to="#" className="swipebox" title="My Caption">
-<div className="image"><img src={gallery1} alt=""/>
+<div className="image"><img src={image1} alt=""/>
 <div className="overlay"><i className="fa fa-search-plus"></i></div>
 </div>
 </Link>
 </li>
 <li>
 <Link to="#" className="swipebox" title="My Caption">
-<div className="image"><img src={gallery1} alt=""/>
+<div className="image"><img src={image1} alt=""/>
+<div className="overlay"><i className="fa fa-search-plus"></i></div>
+</div>
+</Link>
+</li>
+<li>
+<Link to="#" className="swipebox" title="My Caption">
+<div className="image"><img src={image1} alt=""/>
+<div className="overlay"><i className="fa fa-search-plus"></i></div>
+</div></Link>
+</li>
+<li>
+<Link to="#" className="swipebox" title="My Caption">
+<div className="image"><img src={image1} alt=""/>
+<div className="overlay"><i className="fa fa-search-plus"></i></div>
+</div>
+</Link>
+</li>
+<li>
+<Link to="#" className="swipebox" title="My Caption">
+<div className="image"><img src={image1} alt=""/>
+<div className="overlay"><i className="fa fa-search-plus"></i></div>
+</div>
+</Link>
+</li>
+<li>
+<Link to="#" className="swipebox" title="My Caption">
+<div className="image"><img src={image1} alt=""/>
+<div className="overlay"><i className="fa fa-search-plus"></i></div>
+</div>
+</Link>
+</li>
+<li>
+<Link to="#" className="swipebox" title="My Caption">
+<div className="image"><img src={image1} alt=""/>
+<div className="overlay"><i className="fa fa-search-plus"></i></div>
+</div>
+</Link>
+</li>
+<li>
+<Link to="#" className="swipebox" title="My Caption">
+<div className="image"><img src={image1} alt=""/>
+<div className="overlay"><i className="fa fa-search-plus"></i></div>
+</div>
+</Link>
+</li>
+<li>
+<Link to="#" className="swipebox" title="My Caption">
+<div className="image"><img src={image1} alt=""/>
+<div className="overlay"><i className="fa fa-search-plus"></i></div>
+</div>
+</Link>
+</li>
+<li>
+<Link to="#" className="swipebox" title="My Caption">
+<div className="image"><img src={image1} alt=""/>
 <div className="overlay"><i className="fa fa-search-plus"></i></div>
 </div>
 </Link>
