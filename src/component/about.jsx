@@ -5,7 +5,13 @@ import History from './about/history'
 import fred from '../assets/arsen.jpg'
 import Member from './helper/member'
 import { Link } from 'react-router-dom'
+import Members from './member'
+
 function AboutPage() {
+    console.log(Members,'****')
+    
+    
+
   return (
     <div>
         <section id="inner-banner">
@@ -91,55 +97,16 @@ function AboutPage() {
             <div className="info"><div className="name"><Link to="#"> Ishimwe Arsene</Link></div><div className="regency"> CEO&FOUNDER</div></div>
             </div>
             </div>
-
-            <div className="member col-xs-6 col-md-3">
+            {Members.map((el,index) => {
+        return <div className="member col-xs-6 col-md-3">
             <div className="inner">
-            <div className="avatar-inner"><img src={fred} alt=""/></div>
-            <div className="info"><div className="name"><Link to="#"> Ishimwe Arsene</Link></div><div className="regency"> CEO&FOUNDER</div></div>
-            </div>
-            </div>
-
-            <div className="member col-xs-6 col-md-3">
-            <div className="inner">
-            <div className="avatar-inner"><img src={fred} alt=""/></div>
-            <div className="info"><div className="name"><Link to="#"> Ishimwe Arsene</Link></div><div className="regency"> CEO&FOUNDER</div></div>
+            <div className="avatar-inner"><img src={el.image} alt=""/></div>
+            <div className="info"><div className="name"><Link to="#"> {el.imageName}</Link></div><div className="regency"> {el.position}</div></div>
             </div>
             </div>
 
-            <div className="member col-xs-6 col-md-3">
-            <div className="inner">
-            <div className="avatar-inner"><img src={fred} alt=""/></div>
-            <div className="info"><div className="name"><Link to="#"> Ishimwe Arsene</Link></div><div className="regency"> CEO&FOUNDER</div></div>
-            </div>
-            </div>
-
-            <div className="member col-xs-6 col-md-3">
-            <div className="inner">
-            <div className="avatar-inner"><img src={fred} alt=""/></div>
-            <div className="info"><div className="name"><Link to="#"> Ishimwe Arsene</Link></div><div className="regency"> CEO&FOUNDER</div></div>
-            </div>
-            </div>
-
-            <div className="member col-xs-6 col-md-3">
-            <div className="inner">
-            <div className="avatar-inner"><img src={fred} alt=""/></div>
-            <div className="info"><div className="name"><Link to="#"> Ishimwe Arsene</Link></div><div className="regency"> CEO&FOUNDER</div></div>
-            </div>
-            </div>
-
-            <div className="member col-xs-6 col-md-3">
-            <div className="inner">
-            <div className="avatar-inner"><img src={fred} alt=""/></div>
-            <div className="info"><div className="name"><Link to="#"> Ishimwe Arsene</Link></div><div className="regency"> CEO&FOUNDER</div></div>
-            </div>
-            </div>
-
-            <div className="member col-xs-6 col-md-3">
-            <div className="inner">
-            <div className="avatar-inner"><img src={fred} alt=""/></div>
-            <div className="info"><div className="name"><Link to="#"> Ishimwe Arsene</Link></div><div className="regency"> CEO&FOUNDER</div></div>
-            </div>
-            </div>
+    })}
+            
 
             </div>
             </div>

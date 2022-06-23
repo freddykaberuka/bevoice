@@ -22,10 +22,8 @@ function Landing() {
                     {/* Item 1  */}
                     <div className="item active slide1">
                                 <h2 data-animation="animated bounceInDown"><span>Be The Voice</span></h2>
-                                <h3 data-animation="animated bounceInDown">initiative to advocate for these vulnerable children by reaching out to the
-communities that can support them and pay their school fees and other school Materials as well.
-Advocacy is sometimes interpreted as being confrontational between the school and family
-members.</h3>
+                                <h3 data-animation="animated bounceInDown">A youth led initiative to advocate for the most vulnerable members of our community (women and children) 
+                                to improve their livelihood through education, capacity building and health.</h3>
                                 <h4 data-animation="animated bounceInUp"><Link to="/about">READ MORE</Link></h4>             
                     </div> 
                     {/* Item 2  */}
@@ -84,17 +82,20 @@ Education, Women Empowerment and Health.</h5>
                 <div className="text-left"> 
                 <div className="col-md-4 clearfix top-off">
                 <div className="grid-content-left"><i className="fa fa-heart"></i></div>
-                <div className="grid-content-wrapper"><h4>Charity for Education</h4><p>We, youths of bevoice believing that Education is the children rights and can improve
-the well-being of every child in society to reach their full potential so that they can
-journey toward their dreams with confidence and dignity.</p>
+                <div className="grid-content-wrapper">
+                    <h4>Charity for Education</h4>
+                        <p>At BeVoice we believe that for a better sustainable change to the world, 
+                            education should be at the forefront hence, every child has the right not only to education but to good education to reach their full potential 
+                            so that they can journey towards their dreams with confidence and dignity.
+                        </p>
                 <Link to="/" title="" >Read More</Link>
                 </div>
                 </div>
                 <div className="col-md-4 clearfix top-off">
                 <div className="grid-content-left"><i className="fa fa-home"></i></div>
-                <div className="grid-content-wrapper"><h4>CAPACITY BUILIDING</h4><p>Raising the status of women through education, awareness, literacy, and training is
-the Women&#39;s empowerment that equips and allows women to make life-determining decisions
-through the different problems in society.</p>
+                <div className="grid-content-wrapper"><h4>CAPACITY BUILDING</h4><p>"If you educate a woman, you educate a family, if you educate a girl, you educate the future" - Queen Rania of Jordan
+
+Women are the pillars of the family and the nation at large. Capacity building for women and girls through education (soft and technical skills) and awareness of critical issues affecting them equips and allows them to make life-determining decisions for the most pressing challenges faced by communities creating an equal and equitable society.</p>
                 <Link to="/" title="" >Read More</Link>
                 </div>
                 </div>
@@ -126,7 +127,7 @@ and the extremely poverty they never chose to get birth in</h5>
                 </video>
                 </div>
                 <div className="col-md-6 clearfix top-off">
-                <div className="media">
+                <div className="media  media-member">
                 <div className="media-image">
                 <img src="images/g2.png" className="attachment-full size-full" alt="g1"/>																							</div>
                 <div className="media-text">
@@ -135,7 +136,7 @@ and the extremely poverty they never chose to get birth in</h5>
 weren’t chosen that. to be apart of us think that again</p>
                 </div>
                 </div>
-                <div className="media">
+                <div className="media media-member">
                 <div className="media-image">
                 <img src="images/g1.png" className="attachment-full size-full" alt="g1"/>																							</div>
                 <div className="media-text">
