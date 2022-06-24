@@ -840,11 +840,13 @@ video {
     min-height: 273px;
     max-height: 273px;
     overflow: hidden;
+    object-fit: cover;
 }
 .d-image{
     min-height: 100px;
     max-height: 180px;
     overflow: hidden;
+    object-fit: cover;
 }
 /* 479x493 */
 /* 1080 × 1148 */
