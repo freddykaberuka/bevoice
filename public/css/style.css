@@ -370,7 +370,7 @@ p{
 /*       Slides backgrounds     */
 /********************************/
 #first-slider .slide1 {
-	background:linear-gradient(rgba(3, 3, 3, 0.5), rgba(9, 9, 9, 0.5)),url(../images/assets/4.JPG);
+	background:linear-gradient(rgba(1, 1, 1, 0.5), rgba(0, 0, 0, 0.5)),url(../images/assets/4.JPG);
     background-size: 100%;
     background-repeat: no-repeat;
 }
