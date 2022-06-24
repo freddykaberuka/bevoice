@@ -1,11 +1,15 @@
 import arsen from '../assets/arsen.jpg'
-// import kent from '../assets/members/muhire kent photo.jpg'
-// import laurent from '../assets/members/Laurent photo.JPG'
-// import marium from '../assets/members/marium photo.jpg'
-// import pamela from '../assets/members/IMG-20210820-WA0012.jpg'
+import kent from '../assets/members/muhire kent photo.jpg'
+import laurent from '../assets/members/Laurent photo.JPG'
+import marium from '../assets/members/marium photo.jpg'
+import pamela from '../assets/members/IMG-20210820-WA0012.jpg'
 import augustin from '../assets/members/bizimana Augustin.png'
-// import robert from '../assets/members/iradukunda robert.jpg'
+import robert from '../assets/members/iradukunda robert.jpg'
 import grace from '../assets/members/grace.png'
+import anderson from '../assets/members/anderson.JPG'
+import sonia from '../assets/members/sonia.PNG'
+import kevin from '../assets/members/bizimana kevin.jpeg'
+import nam from '../assets/members/WhatsApp Image 2021-08-17 at 13.17.20.jpeg'
 
 const Members = [
     {
@@ -27,17 +31,22 @@ const Members = [
     {
         imageName:"Marium",
         position:"developer",
-        image:grace
+        image:marium
     },
     {
         imageName:"Laurent",
         position:"developer",
-        image:arsen
+        image:laurent
     },
     {
         imageName:"Pamela",
         position:"developer",
-        image:grace
+        image:pamela
+    },
+    {
+        imageName:"Bizimana Kevin",
+        position:"developer",
+        image:kevin
     },
     {
         imageName:"Bizimana Augustin",
@@ -47,7 +56,7 @@ const Members = [
     {
         imageName:"Iradukunda Robert",
         position:"developer",
-        image:arsen
+        image:robert
     },
     {
         imageName:"Iradukunda Grace",
@@ -55,9 +64,19 @@ const Members = [
         image:grace
     },
     {
+        imageName:"Uwera Sonia",
+        position:"developer",
+        image:sonia
+    },
+    {
+        imageName:"Anderson Ndikumana",
+        position:"developer",
+        image:anderson
+    },
+    {
         imageName:"Freddy",
         position:"developer",
-        image:arsen
+        image:nam
     },
     {
         imageName:"Freddy",

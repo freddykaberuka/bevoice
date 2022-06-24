@@ -835,10 +835,15 @@ video {
 .team-member{
     margin-top: 50px;
 }
-.member{
+.member img{
     /* max-width: 300px; */
+    min-height: 273px;
+    max-height: 273px;
+    overflow: hidden;
+}
+.d-image{
     min-height: 100px;
-    max-height: 250px;
+    max-height: 180px;
     overflow: hidden;
 }
 /* 479x493 */

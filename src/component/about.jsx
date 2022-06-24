@@ -8,9 +8,6 @@ import { Link } from 'react-router-dom'
 import Members from './member'
 
 function AboutPage() {
-    console.log(Members,'****')
-    
-    
 
   return (
     <div>

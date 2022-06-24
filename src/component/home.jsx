@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import image1 from '../assets/what we do.jpg'
 import image3 from '../assets/1.jpg'
 // import Comunication from './helper/comunication'
+import Photos from './photo'
 
 function Landing() {
   return (
@@ -196,48 +197,15 @@ Education, Women Empowerment and Health.</h5>
                 <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
                 <ul className="clearfix">
 
-                <li>
-                <div className="image"><img src={image3} alt=""/>
-                <div className="overlay"><i className="fa fa-search-plus"></i></div>
-                </div>
-                </li>
-                <li>
-                <div className="image"><img src={image3} alt=""/>
-                <div className="overlay"><i className="fa fa-search-plus"></i></div>
-                </div>
-                </li>
+                {Photos.slice(0,8).map((el,index) => {
+        return <li>
+<Link to="#" className="swipebox" title="My Caption">
+<div className="image d-image"><img src={el.image} alt=""/>
+<div className="overlay"><i className="fa fa-search-plus"></i></div>
+</div></Link>
+</li>
 
-                <li>
-                <div className="image"><img src={image3} alt=""/>
-                <div className="overlay"><i className="fa fa-search-plus"></i></div>
-                </div>
-                </li>
-
-                <li>
-                <div className="image"><img src={image3} alt=""/>
-                <div className="overlay"><i className="fa fa-search-plus"></i></div>
-                </div>
-                </li>
-                <li>
-                <div className="image"><img src={image3} alt=""/>
-                <div className="overlay"><i className="fa fa-search-plus"></i></div>
-                </div>
-                </li>
-                <li>
-                <div className="image"><img src={image3} alt=""/>
-                <div className="overlay"><i className="fa fa-search-plus"></i></div>
-                </div>
-                </li>
-                <li>
-                <div className="image"><img src={image3} alt=""/>
-                <div className="overlay"><i className="fa fa-search-plus"></i></div>
-                </div>
-                </li>
-                <li>
-                <div className="image"><img src={image3} alt=""/>
-                <div className="overlay"><i className="fa fa-search-plus"></i></div>
-                </div>
-                </li>
+    })}
                 </ul>
                 <div className="text-center">
                 <Link to="/gallery" className="btn1">View More</Link>
